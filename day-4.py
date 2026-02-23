@@ -54,3 +54,5 @@ data = (response.json())
 df = pd.DataFrame(data)
 
 print(df.sort_values("market_cap",ascending=False)[["name","symbol","market_cap"]])
+
+
